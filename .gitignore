@@ -1,0 +1,18 @@
+# secrets
+.env
+*.env.local
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# runtime data (database + FAISS indexes)
+backend/data/*
+!backend/data/.gitkeep
+
+# node
+node_modules/
+dist/
